@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class BackEndApiService {
 
-  private urlApi = 'https://base-service-rest-database-crud-node-test.apps.cluster-5jb62.5jb62.sandbox2975.opentlc.com/perfil/perfiles';
+  private urlApi = 'http://172.30.163.91:8080/perfil/perfiles';
 
   constructor(private http: HttpClient) { }
 
